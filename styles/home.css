@@ -33,41 +33,55 @@
   column-gap: 15px;
   list-style: none;
   color: white;
+  text-decoration: none;
 }
 
-.tabs > li:hover {
+.tabs > li > a {
+  color: white;
+  text-decoration: none;
+}
+.tabs > li > a:hover {
   color: rgb(185, 172, 172);
   cursor: pointer;
 }
 
 .cover-page {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
   width: 100vw;
   height: 600px;
   background-image: url("../images/w2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* filter: contrast(50%); */
+  z-index: -2;
 }
 .cover-page > p {
   color: white;
   font-size: xx-large;
   max-width: 800px;
   font-weight: bolder;
-  filter: contrast(100%);
+  z-index: 2;
 }
-
+.search {
+  padding: 50px 70px;
+}
 .notice-board {
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 15px;
-  color: red;
+  color: black;
   width: 100vw;
   display: flex;
+  column-gap: 50px;
   justify-content: space-between;
 }
 .main-events {
   width: 50vw;
+}
+.main-events > p {
+  max-width: 500px;
 }
 .events {
   display: flex;

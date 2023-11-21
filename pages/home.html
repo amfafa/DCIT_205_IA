@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>dcs.ug.edu.gh</title>
+
+    <link rel="stylesheet" href="../styles/home.css" />
     <link
       rel="stylesheet"
-      type="text/css"
-      href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../styles/home.css" />
+    <link />
   </head>
   <body>
     <div>
@@ -25,17 +29,28 @@
         </div>
 
         <ul class="tabs">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact</li>
+          <li>
+            <a href="./home.html"> Home </a>
+          </li>
+          <li>
+            <a href="./about.html"> About Us </a>
+          </li>
+
+          <li><a href="./undergraduate.html">Undergraduate</a></li>
+          <li><a href="./graduate.html">Graduate</a></li>
         </ul>
         <div>
-          <input type="search" placeholder="search..." class="joch" />
+          <input
+            id="search"
+            type="search"
+            placeholder="search..."
+            class="search"
+          />
         </div>
       </div>
       <div class="cover-page">
-        <div>hamburger</div>
-        <p>
+        <div><i class="fa-solid fa-bars"></i></div>
+        <p class="cover-page-text">
           WE UNLOCK YOUR PROGRAMMING SKILLS AND PREPARE YOU FOR THE JOB MARKET
           AND THE WORLD AT LARGE
         </p>
@@ -73,6 +88,17 @@
               <h6>UNIVERSITY OF GHANA</h6>
             </div>
           </div>
+        </div>
+        <div class="main-events">
+          <div class="events">
+            <h1>Announcements</h1>
+            <div class="all-events"><h1>All Announcements</h1></div>
+          </div>
+
+          <p>
+            The Prof Safo Byte Battle (TPABB) CSS WEEK CELEBRATION Conference
+            Computer ScienceSociety Week Celebration 2023
+          </p>
         </div>
       </div>
       <footer class="footer">
