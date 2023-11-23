@@ -69,6 +69,12 @@
 }
 
 .readmore-button:hover {
-  background-color: rgb(54, 40, 161);
+  background-color: rgb(1, 99, 245);
   cursor: pointer;
+}
+.readmore-button {
+  border-radius: 5px;
+  border-style: none;
+  align-items: center;
+  justify-content: right;
 }
