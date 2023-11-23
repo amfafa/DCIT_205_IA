@@ -1,0 +1,13 @@
+.computer-science-parallel-undergrad {
+  max-width: 800px;
+}
+
+.computer-science-parallel-undergrad p {
+  font-size: large;
+}
+.computer-science-parallel-undergrad > ul > li {
+  font-size: large;
+}
+.computer-science-parallel-undergrad > h4 {
+  font-size: large;
+}
