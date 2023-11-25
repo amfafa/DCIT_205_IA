@@ -48,9 +48,10 @@
 
 .cover-page {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
   width: 100vw;
   height: 600px;
   background-image: url("../images/w2.jpg");
@@ -62,7 +63,6 @@
   color: white;
   text-shadow: rgb(30, 30, 30) 2px 2px 11px;
   text-align: center;
-
   font-weight: bolder;
   max-width: 1000px;
   z-index: 2;
@@ -185,4 +185,16 @@
 
 .footer-name > ul > li {
   margin-bottom: 3px;
+}
+
+.apply-now {
+  font-weight: 700;
+  font-size: small;
+  color: #281564;
+  height: 30px;
+  width: 100px;
+  border-radius: 100px;
+  background-color: white;
+  outline: none;
+  border: none;
 }
