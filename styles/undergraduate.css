@@ -1,50 +1,57 @@
 .undergraduate {
+  margin-top: 20px;
   display: flex;
-  justify-content: center;
+  padding-left: 5px;
   align-items: center;
-  height: 60px;
-  width: 130px;
-
-  background-color: rgb(227, 227, 234);
+  height: 50px;
+  width: 125px;
+  background-color: #f4f5f7;
+  border-radius: 2px;
+  color: #666;
 }
 
 .undergraduate-sub {
   padding: 1px;
   margin-top: 5px;
   display: flex;
-  justify-content: center;
+  border-radius: 2px;
   align-items: center;
   column-gap: 5px;
   height: 50px;
   width: 120px;
-  background-color: rgb(200, 200, 204);
+  background-color: #e4e4e4;
   padding: 5px;
+  color: #494949;
 }
 
 .undergraduate-sub > i {
-  font-size: 15px;
+  font-size: 12px;
 }
 .main-undergraduate {
   padding: 120px 0px;
-  column-gap: 100px;
-  align-items: center;
+  column-gap: 30px;
   justify-content: center;
   display: flex;
+  background-color: white;
 }
 
 .undergraduate-container {
   margin-top: 10px;
-  padding: 20px 0;
+  padding: 20px 50px;
   width: 800px;
   align-self: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
-  border: 1px solid rgb(187, 183, 183);
+  border: 1px solid rgb(221, 219, 219);
 }
 
 .undergraduate-container > button {
-  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 20px 15px;
   background-color: rgb(91, 91, 87);
   height: 30px;
   color: white;
@@ -52,14 +59,20 @@
 }
 
 .undergraduate-text > h1 {
-  font-size: 14px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 500;
 }
 .undergraduate-text > h2 {
-  font-size: 17px;
+  margin-top: -5px;
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 .undergraduate-sub > h6 {
-  font-size: 15px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .readmore {
