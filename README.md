@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Name : Jochebed Fafa Kumor
 # StudentID : 11305467
 
@@ -69,3 +70,6 @@ Email: jfkumor@st.edu.ug.gh
 Phone: +233554873753
 
 
+=======
+# DCIT_205_IA
+>>>>>>> 40a3d275bcc72b2489091be5c6ce5f88407551b5
